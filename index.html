@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <title>Roland's Bee Shop</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <header>
+            <h1>
+                Roland's Apiary.
+                The Honey Hut.
+            </h1>
+            <p>
+                Welcome to my Webshop, here I sell products made from Honey and wax.
+            </p>
+        </header>
+    </div>
+    <!-- <div class="layer"></div> -->
+    <shopping-cart></shopping-cart>
+    <main id="app">
+        <div class="container-fluid p-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-5">
+                            <img src="assets/images/pexels-roman-odintsov-6422025.jpg" class="card-img-top products" alt="Honey">
+                            <div class="card-body">
+                                <h5 class="card-title">Honey</h5>
+                                <p class="card-text">Raw or Pasturised honey</p>
+                                <a href="pages/honey.html" class="btn btn-primary" id="HoneyBtn">Honey</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-5">
+                            <img src="assets/images/gl127.jpg" class="card-img-top products" alt="Candy">
+                            <div class="card-body">
+                                <h5 class="card-title">Candy</h5>
+                                <p class="card-text">Various honey candies</p>
+                                <a href="pages/candy.html" class="btn btn-primary" id="CandyBtn">Candy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-5">
+                            <img src="assets/images/sweet-yellow-honey-wine-meade-on-the-wooden-table-royalty-free-image-961046814-1565896165.jpg" class="card-img-top products" alt="Honey wine">
+                            <div class="card-body">
+                                <h5 class="card-title">Alcoholic drinks</h5>
+                                <p class="card-text">Mead and Honey wine</p>
+                                <a href="pages/mead.html" class="btn btn-primary" id="MeadBtn">Mead</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-5">
+                            <img src="assets/images/pexels-liya-zerya-konuş-10012665.jpg" class="card-img-top products" alt="Candles">
+                            <div class="card-body">
+                                <h5 class="card-title">Candles</h5>
+                                <p class="card-text">Candles made from beeswax</p>
+                                <a href="pages/candles.html" class="btn btn-primary" id="CandleBtn">Candles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

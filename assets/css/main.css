@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+.products {
+    height: 200px;
+    width: 200px;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+background-image: url("../images/HoneyCombBG.jpeg");
+}
+
+header {
+    font-size: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(216, 166, 27, 0.616);
+}
+
+.comment-container {
+    background-color: beige;
+}
+
+.example {
+    color: blue;
+    
+}
+.btn {
+    cursor: pointer;
+}
